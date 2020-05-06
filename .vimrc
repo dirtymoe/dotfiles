@@ -8,3 +8,5 @@ set ai
 set number
 set hlsearch
 set ruler
+
+highlight LineNr ctermfg=DarkGrey
