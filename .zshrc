@@ -16,7 +16,8 @@ source $ZSH/oh-my-zsh.sh
 
 # Additional Stuff
 export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
+export LOCALBIN=$HOME/.local/bin
+export PATH=$PATH:$LOCALBIN:$GOPATH/bin
 export EDITOR='vim'
 
 alias ll="ls -lah"
