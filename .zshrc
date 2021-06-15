@@ -36,5 +36,5 @@ export LOCALBIN=$HOME/.local/bin
 export PATH=$PATH:$LOCALBIN:$GOPATH/bin
 export EDITOR='vim'
 
-alias ll="ls -lah"
+alias ll="ls -lah --color=auto"
 
